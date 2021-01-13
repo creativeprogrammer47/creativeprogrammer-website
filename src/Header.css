@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+.header{
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+.navbar{
+  width: 600px;
+  z-index: 1000;
+}
+.navbar ul{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    z-index: 10000;
+}
+.logoimg{
+    margin-bottom: 30px;
+}
+.navbar ul li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+    z-index: 1000002;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+.navbar a:hover{
+  color: #FF4A54;
+}
+.wrap{
+  width: 600px;
+  position: relative;
+  display: flex;
+  margin: auto;
+}
+.search {
+    width: 500px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #FF4A54;
+    background-color: #FF4A54;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 20px 0px 0px 20px;
+    outline: none;
+    color: #383838;
+  }
+  
+  .searchTerm:focus{
+    color: #000000;
+  }
+  
+  .searchButton {
+    width: 50px;
+    height: 36px;
+    border: 1px solid #FF4A54;
+    background: #FF4A54;
+    padding: 5px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+  }
+  .linew{
+    width: 100vw;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .line{
+    width: 70vw;
+    height: 0;
+    margin-top: 50px;
+    border-bottom: 2px solid #3DBAFF;
+  }
+  .tm{
+    display: none;
+    z-index: 1000;
+  }
+
+  @media only screen and (max-width: 599px){
+    .search{
+      width: 80vw;
+      margin-top: 10px;
+    }
+    .tm{
+      display: block;
+      position: fixed;
+      top: 50px;
+      right: 5px;
+    }
+    .navbar ul{
+      flex-direction: column;
+      margin: 10px;
+      width: 200px;
+    }
+   .line{
+    margin-top: -40px;
+    }
+   .wrap{
+     display: none;
+   }
+
+  }

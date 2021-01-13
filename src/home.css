@@ -1,0 +1,21 @@
+
+.mainc{
+    /* max-width: 1200px; */
+    margin: 0 auto;
+  }
+
+  .cards {
+    display: flex;
+    /* width: 80vw; */
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .cards li{
+    margin: 0;
+  }
+  

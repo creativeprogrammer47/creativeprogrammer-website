@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #30FFDA;
+}
+.active{
+  color: #FF4A54 !important ;
+  border-bottom: 2px solid #FF4A54;
+}

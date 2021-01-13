@@ -1,0 +1,14 @@
+.icons a{
+    margin: 40px;
+}
+.icons{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.fiver{
+    text-decoration: none;
+    color: #00b22d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}

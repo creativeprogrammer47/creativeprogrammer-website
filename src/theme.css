@@ -1,0 +1,71 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+:root {
+  --color-primary: #ff3333;
+  --color-secondary: #ff7070;
+  --color-yellow: #fabb00;
+}
+
+.toggle-container {
+  display: flex; align-items: flex-end;
+  justify-content: center;
+  height: 50px; width: 70px;
+  transition: background 0.5s;
+  position: absolute;
+  top: 1vh;
+  right: 2vw;
+}
+.toggle {
+  position: relative;
+  width: 3.6rem; height: 1.6rem;
+  border-radius: 1.5rem;
+  
+}
+.toggle input {
+  opacity: 0;width: 0; height: 0;
+} 
+.toggle .slider {
+  position: absolute; top: 0;left: 0;
+  cursor: pointer; right: 0; bottom: 0;
+  background-color: rgb(92, 236, 255);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  
+}
+.toggle .slider:before {
+  position: absolute; content: "wb_sunny";
+  font-size: 1.4rem; text-align: center;
+  color: var(--color-yellow);
+  padding: 0.3rem; left: 0; top: 0%;
+  transform: translate(0, -50%);
+  background: rgb(0, 255, 242);
+  -webkit-transition: 0.4s;
+  transition: all 0.4s; z-index: 2;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.281),
+    0 3px 2px -2px rgba(0, 0, 0, 0.342), 0 1px 5px 0 rgba(0, 0, 0, 0.507)
+  
+}
+.toggle input:checked + .slider {
+  background-color: var(--color-secondary);
+}
+.toggle input:checked + .slider:before {
+  transform: translate(1.6rem, -50%);
+  background-color: var(--color-primary);
+  content: "brightness_2";
+}
+.toggle .slider.round {
+  border-radius: 50px;
+  height: 2px;
+  width: 53px;
+}
+.toggle .slider.round:before {
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 599px){
+  .toggle-container{
+    top: 100px;
+    right: 5px;
+  }
+}

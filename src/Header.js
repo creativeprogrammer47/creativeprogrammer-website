@@ -8,6 +8,7 @@ import Togglemenu from './Togglemenu';
 
 function Header() {
   return (
+    <>
     <div className="header">
       <p className = "welcome">welcome to creativeprogrammer world 🎉</p>
       <div className="tm">
@@ -46,6 +47,7 @@ function Header() {
       {/* </div> */}
       <div className="linew"><div className="line"></div></div>
     </div>
+    </>
   );
 }
 

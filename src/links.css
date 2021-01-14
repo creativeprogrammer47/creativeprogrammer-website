@@ -1,13 +1,16 @@
 .icons a{
     margin: 40px;
 }
+.icons button{
+    color: #FF4A54;
+}
 .icons{
     margin-top: 50px;
     margin-bottom: 30px;
 }
 .fiver{
     text-decoration: none;
-    color: #00b22d;
+    color: #00b22d !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: 700;

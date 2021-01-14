@@ -64,11 +64,11 @@
     height: 20px;
     border-radius: 20px 0px 0px 20px;
     outline: none;
-    color: #383838;
+    color: #e7e7e7;
   }
   
   .searchTerm:focus{
-    color: #000000;
+    color: #ffffff;
   }
   
   .searchButton {

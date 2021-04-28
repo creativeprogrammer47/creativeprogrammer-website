@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./cards.css";
 import SearchIcon from "@material-ui/icons/Search";
 import DATA from "./Data.json";
+import './App.css'
 const Cardui = React.lazy(() => import('./Cardui'));
 // import Togglemenu from './Togglemenu';
 
@@ -39,7 +40,7 @@ function Cards() {
         }).map((val, key) => {
           return (
             <Suspense fallback={<div>Loading...</div>}>
-            <Cardui
+            <Cardui 
               imgUrl={val.imgUrl}
               heading={val.heading}
               caption={val.caption}

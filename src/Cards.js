@@ -1,59 +1,14 @@
-import React from "react";
+import React, { Suspense } from 'react';
 import { useState } from "react";
 import "./cards.css";
-import Cardui from "./Cardui";
 import SearchIcon from "@material-ui/icons/Search";
 import DATA from "./Data.json";
+const Cardui = React.lazy(() => import('./Cardui'));
 // import Togglemenu from './Togglemenu';
 
 
 function Cards() {
   const [searchTerm, setsearchTerm] = useState("");
-
-//   const [posts, setPosts] = useState([
-//     {
-//       imgUrl:
-//         "https://raw.githubusercontent.com/creativeprogrammer47/loadinganimation/main/l1.png",
-//       heading: "AMAZING LOADING ANIMATION USING PURE CSS 😍",
-//       caption:
-//         "Amazing code building loading animation with including shaking animation",
-//       sourceurl: "https://github.com/creativeprogrammer47/loadinganimation",
-//     },
-//     {
-//       imgUrl:
-//         "https://raw.githubusercontent.com/creativeprogrammer47/hamburgerMenuAnimation/main/HM1.png",
-//       heading: "Modern hamburger menu animation using html css and javascript ",
-//       caption:
-//         "Amazing code building loading animation with including shaking animation",
-//       sourceurl:
-//         "https://github.com/creativeprogrammer47/hamburgerMenuAnimation",
-//     },
-//     {
-//       imgUrl:
-//         "https://raw.githubusercontent.com/creativeprogrammer47/ButtonReflectionEffect/main/SA1.png",
-//       heading: "AMAZING search box ANIMATION USING PURE CSS 😍",
-//       caption:
-//         "Amazing code building loading animation with including shaking animation",
-//       sourceurl:
-//         "https://github.com/creativeprogrammer47/ButtonReflectionEffect",
-//     },
-//     {
-//       imgUrl:
-//         "https://raw.githubusercontent.com/creativeprogrammer47/GlassmorphismProfileCard/main/g1.png",
-//       heading: "AMAZING search box ANIMATION USING PURE CSS 😍",
-//       caption:
-//         "Amazing code building loading animation with including shaking animation",
-//       sourceurl:
-//         "https://github.com/creativeprogrammer47/GlassmorphismProfileCard",
-//     },
-//     {
-//       imgUrl:
-//         "https://raw.githubusercontent.com/creativeprogrammer47/SlidingPerspective/main/SPR.jpg",
-//       heading: "Sliding perspective animimation",
-//       caption: "Sliding perspective animation using css ",
-//       sourceurl: "https://github.com/creativeprogrammer47/SlidingPerspective",
-//     },
-//   ]);
 
   return (
     <div className="card-body">
@@ -74,15 +29,6 @@ function Cards() {
         </button>
       </div>
       <div className="cards">
-        {/* {posts.map((post) => (
-
-          <Cardui
-            imgUrl={post.imgUrl}
-            heading={post.heading}
-            caption={post.caption}
-            sourceurl={post.sourceurl}
-          />
-        ))} */}
 
         {DATA.filter((val) =>{
             if(searchTerm == ""){
@@ -92,12 +38,15 @@ function Cards() {
             }
         }).map((val, key) => {
           return (
+            <Suspense fallback={<div>Loading...</div>}>
             <Cardui
               imgUrl={val.imgUrl}
               heading={val.heading}
               caption={val.caption}
               sourceurl={val.sourceurl}
+              codepenhash={val.codepenhash}
             />
+            </Suspense>
           );
         })}
       </div>

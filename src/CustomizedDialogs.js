@@ -89,7 +89,7 @@ export default function CustomizedDialogs({ title, codepenhash }) {
         maxWidth="md"
         fullWidth="true"
       >
-        <DialogTitle id="customized-dialog-title" onClose={handleClose}>
+        <DialogTitle id="customized-dialog-title" onClose={handleClose} style = {{"text-transform": "uppercase"}}>
           {title}
         </DialogTitle>
         <DialogContent dividers>

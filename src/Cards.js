@@ -34,7 +34,7 @@ function Cards() {
         {DATA.filter((val) =>{
             if(searchTerm == ""){
                 return val
-            }else if(val.heading.toLowerCase().includes(searchTerm.toLowerCase())){
+            }else if(val.caption.toLowerCase().includes(searchTerm.toLowerCase())){
                 return val
             }
         }).map((val, key) => {
@@ -44,7 +44,6 @@ function Cards() {
               imgUrl={val.imgUrl}
               heading={val.heading}
               caption={val.caption}
-              sourceurl={val.sourceurl}
               codepenhash={val.codepenhash}
             />
             </Suspense>

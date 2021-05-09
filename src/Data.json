@@ -1,10 +1,87 @@
-[ 
+[   
+  {
+    "imgUrl":
+    "https://raw.githubusercontent.com/creativeprogrammer47/images/main/numorphic%20social.jpg",
+    "heading": "Neumorphism buttons",
+    "caption": "Nurmorphism social share button using css",
+    "codepenhash" : "ExWjZmQ"
+  }, 
+
+  {
+    "imgUrl":
+    "https://raw.githubusercontent.com/creativeprogrammer47/images/main/floating%20card.jpg",
+    "heading": "floating card",
+    "caption": "Floating and perspective card using pure css",
+    "codepenhash" : "dyvovzo"
+  }, 
+  {
+    "imgUrl":
+    "https://raw.githubusercontent.com/creativeprogrammer47/images/main/clock%20loading%20css.jpg",
+    "heading": "clock loader",
+    "caption": "clock loading animation using pure css",
+    "codepenhash" : "poeJerK"
+  }, 
+  {
+    "imgUrl":
+    "https://github.com/creativeprogrammer47/images/blob/main/pintrest%20card.jpg?raw=true",
+    "heading": "Pinterest card",
+    "caption": "Pinterest card on hover effect using css",
+    "codepenhash" : "jOBPBGx"
+  }, 
+  {
+    "imgUrl":
+    "https://github.com/creativeprogrammer47/images/blob/main/apop%20out%20slider.jpg?raw=true",
+    "heading": "pop out slider",
+    "caption": "Pop out slider for your hero section using HTML, CSS, Javascript",
+    "codepenhash" : "jOBPBax"
+  }, 
+  {
+    "imgUrl":
+    "https://github.com/creativeprogrammer47/images/blob/main/attantion%20grabing%20button.jpg?raw=true",
+    "heading": "crazy button",
+    "caption": "Attantion grabing button using pure css this makes your website standout",
+    "codepenhash" : "PopqpEm"
+  },  
+{
+  "imgUrl":
+  "https://raw.githubusercontent.com/creativeprogrammer47/images/main/numorphic%20button.jpg",
+  "heading": "nurmorphic button",
+  "caption": "Neumorphic radio button using pure css (can be used in quiz app)",
+  "codepenhash" : "oNZXZEj"
+},
+{
+  "imgUrl":
+  "https://raw.githubusercontent.com/creativeprogrammer47/images/main/gosy%20loder.jpg",
+  "heading": "gooey loder",
+  "caption": "Gooey spinning loading animation using pure css",
+  "codepenhash" : "RwpPpPW"
+},
+{
+  "imgUrl":
+  "https://raw.githubusercontent.com/creativeprogrammer47/images/main/Screenshot%202021-05-09%20164500.jpg",
+  "heading": "Bouncing ball loading animation",
+  "caption": "Boncing balls loading animation using pure CSS",
+  "codepenhash" : "rNyVLvJ"
+},
+{
+  "imgUrl":
+  "https://raw.githubusercontent.com/creativeprogrammer47/images/main/darkmode%20toggle%20result.jpg",
+  "heading": "darkmode toggle",
+  "caption": "Animated darkmode toggle with icons using HTML CSS Javascript",
+  "codepenhash" : "KKWpMQW"
+},
+{
+    "imgUrl":
+    "https://raw.githubusercontent.com/creativeprogrammer47/images/main/result%20of%20mouse%20scroll.jpg",
+    "heading": "scroll indicator",
+    "caption": "Mouse scroll down indecator using pure css",
+    "codepenhash" : "eYvNzGG"
+  },
   {
     "imgUrl":
     "https://raw.githubusercontent.com/creativeprogrammer47/vertical-icon-bar/main/VIB1.png",
     "heading": "Vertical iconbar ",
     "caption": "Vertical iconbar with cooo..l on hover animation on icons for mordern websites",
-    "sourceurl": "https://github.com/creativeprogrammer47/vertical-icon-bar",
     "codepenhash" : "oNBOqjw"
     
   },
@@ -13,7 +90,6 @@
     "https://raw.githubusercontent.com/creativeprogrammer47/responsivenav/main/reaponsiveNav-1.png",
     "heading": "responsive and animated navbar using html css & javascript. ",
     "caption": "Responsive and animated navbar which includes lits of animations like underline on hover slow reveling and many more with amazing UI.",
-    "sourceurl": "https://github.com/creativeprogrammer47/responsivenav",
     "codepenhash" : "wvgZmGQ"
   },
   {
@@ -21,7 +97,6 @@
     "https://raw.githubusercontent.com/creativeprogrammer47/clock-loading-animation/main/clock%20animation%20home%20final.png",
     "heading": "Clock loading animation using sass",
     "caption": "cooo..l Clock loading animation using sass 🕖",
-    "sourceurl": "https://github.com/creativeprogrammer47/clock-loading-animation",
     "codepenhash" : "LYxvdbL"
   },
   {
@@ -30,8 +105,6 @@
     "heading": "SEARCH BOX ANIMATION USING PURE CSS 🔎",
     "caption":
     "Cooooo...l search box animation using pure css this is click to expand animation 🔍",
-    "sourceurl":
-    "https://github.com/creativeprogrammer47/SearchBarAnimation",
     "codepenhash" : "XWpQERK"
   },
   {
@@ -39,7 +112,6 @@
     "https://raw.githubusercontent.com/creativeprogrammer47/SlidingPerspective/main/SPR.jpg",
       "heading": "Sliding perspective animimation",
       "caption": "Coooo...l Sliding perspective animation using css which slides on hover",
-    "sourceurl": "https://github.com/creativeprogrammer47/SlidingPerspective",
     "codepenhash" : "zYNXWzo"
   },
   {
@@ -47,7 +119,6 @@
     "https://raw.githubusercontent.com/creativeprogrammer47/text-color-changing/main/text%20color%20changing.jpg",
     "heading": "Text color changing animation",
     "caption": "Amazing text color changing animation using few lines of CSS I got this idea by seeing few GITHUB websites ",
-    "sourceurl": "https://github.com/creativeprogrammer47/text-color-changing",
     "codepenhash" : "wvgZmrO"
   },
   {
@@ -56,7 +127,6 @@
     "heading": "AMAZING LOADING ANIMATION USING PURE CSS 😍",
     "caption":
       "Amazing code building loading animation with including shaking animation",
-    "sourceurl": "https://github.com/creativeprogrammer47/loadinganimation",
     "codepenhash" : "yLgrKpY"
   },
   {
@@ -65,8 +135,6 @@
     "heading": "Modern hamburger menu animation using html css and javascript ",
     "caption":
     "Are you bored by seeing and using the hamburger menu from long before ? Hear the modern hamburger menu icon with amazing Animation.",
-    "sourceurl":
-    "https://github.com/creativeprogrammer47/hamburgerMenuAnimation",
     "codepenhash" : "poRBLKj"
   },
   {
@@ -74,7 +142,6 @@
     "https://raw.githubusercontent.com/creativeprogrammer47/NEUMORPHISMbuttons/main/numorpiuc%20social%20buttons.png",
     "heading": "neumorphism social media buttons",
     "caption": "Neumorphism social media buttons using html & css with with cool appearing animation ",
-    "sourceurl": "https://github.com/creativeprogrammer47/NEUMORPHISMbuttons",
     "codepenhash" : "GRrLxwz"
   },
   {
@@ -83,8 +150,6 @@
     "heading": "GLASSMORPHISM PROFILE CARD & GLASSMORPHISH EFFECT USING ONLY FEW LINES OF CSS",
     "caption":
       "Simple and best Glassmorphism profile card including how to make that glass effect using only few lines of css 🍳✨",
-    "sourceurl":
-      "https://github.com/creativeprogrammer47/GlassmorphismProfileCard",
       "codepenhash" : "XWpQEGg"
   },
   {
@@ -92,7 +157,6 @@
     "https://raw.githubusercontent.com/creativeprogrammer47/SweetAlert/main/sweetalert.jpg",
     "heading": "sweet alert",
     "caption": "Sweet alert using javascript",
-    "sourceurl": "https://github.com/creativeprogrammer47/SweetAlert",
     "codepenhash" : "gOgyzbN"
   },
   {
@@ -100,7 +164,6 @@
     "https://raw.githubusercontent.com/creativeprogrammer47/shareOnSocialMediaButton/main/Pure%20css.png",
     "heading": "share on social button",
     "caption": "share on social media button with nice on hover animation using pure css.",
-    "sourceurl": "https://github.com/creativeprogrammer47/shareOnSocialMediaButton",
     "codepenhash" : "PoWgeqM"
   },
   {
@@ -108,7 +171,6 @@
     "https://raw.githubusercontent.com/creativeprogrammer47/typing_effect/main/typink%20animation%201.jpg",
     "heading": "Typing animation|",
     "caption": "Typing animation using only few lines of javascript code. This is my first post 😜",
-    "sourceurl": "https://github.com/creativeprogrammer47/typing_effect",
     "codepenhash" : "jOyRxWM"
   }
 ]

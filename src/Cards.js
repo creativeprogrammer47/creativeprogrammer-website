@@ -2,21 +2,29 @@ import React, { Suspense } from 'react';
 import { useState } from "react";
 import "./cards.css";
 import SearchIcon from "@material-ui/icons/Search";
-import DATA from "./Data.json";
 import './App.css'
 const Cardui = React.lazy(() => import('./Cardui'));
-// import Togglemenu from './Togglemenu';
 
 
 function Cards() {
   const [searchTerm, setsearchTerm] = useState("");
+  const [data, setdata] = useState([]);
+
+  const getapi = () =>{
+
+    fetch('https://cp-website-api.herokuapp.com/posts')
+    .then((response) => response.json())
+    .then((json) => {
+      setdata(json);
+    })
+  }
+
+  getapi();
 
   return (
     <div className="card-body">
       <div className="search">
-      {/* <div className="tm">
-        <Togglemenu />
-        </div> */}
+      
         <input
           type="text"
           class="searchTerm"
@@ -31,7 +39,7 @@ function Cards() {
       </div>
       <div className="cards">
 
-        {DATA.filter((val) =>{
+        {data.filter((val) =>{
             if(searchTerm == ""){
                 return val
             }else if(val.caption.toLowerCase().includes(searchTerm.toLowerCase())){

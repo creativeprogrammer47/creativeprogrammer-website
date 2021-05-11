@@ -2,9 +2,8 @@ import React, { Suspense } from 'react';
 import { useState } from "react";
 import "./cards.css";
 import SearchIcon from "@material-ui/icons/Search";
-import './App.css'
+import './App.css';
 const Cardui = React.lazy(() => import('./Cardui'));
-
 
 function Cards() {
   const [searchTerm, setsearchTerm] = useState("");
@@ -38,7 +37,6 @@ function Cards() {
         </button>
       </div>
       <div className="cards">
-
         {data.filter((val) =>{
             if(searchTerm == ""){
                 return val

@@ -80,7 +80,7 @@ export default function CustomizedDialogs({ title, codepenhash }) {
     <div>
     <br/>
       <ColorButton variant="contained" color="primary" onClick={handleClickOpen}>
-        Code
+        Demo & Code
       </ColorButton>
       <Dialog
         onClose={handleClose}
@@ -101,7 +101,6 @@ export default function CustomizedDialogs({ title, codepenhash }) {
             height = "500"
             defaultTab = "result"
             preview= "false"
-            // themeId = {darkMode ? "dark" : "light"}
           />
           </Suspense>
         </DialogContent>

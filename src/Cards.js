@@ -47,7 +47,6 @@ function Cards() {
           return (
             <Suspense fallback={<div>Loading...</div>}>
             <Cardui 
-              imgUrl={val.imgUrl}
               heading={val.heading}
               caption={val.caption}
               codepenhash={val.codepenhash}
